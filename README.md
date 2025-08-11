@@ -21,9 +21,7 @@ apps/
 ## 🚀 Requisitos
 
 - Node.js v18 o superior
-- [Playwright CLI](https://playwright.dev/docs/cli)
-- Nodemailer
-- Otpauth
+- npm
 
 Instalación de dependencias:
 
@@ -62,7 +60,7 @@ npx playwright test tests/ejemplo.spec.ts --headed
 ```
 
 - --headed: opcional, abre el navegador visualmente.
-- --config: especifica la ruta de configuración personalizada.
+- para windos los slash (`/`) de las rutas se deben poner como backslash (`\`)
 
 ---
 
