@@ -1,0 +1,25 @@
+{
+  "name": "validarwebs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/nodemailer": "^6.4.17",
+    "playwright": "^1.52.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "nodemailer": "^7.0.3",
+    "otpauth": "^9.4.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "description": ""
+}
